@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#cola{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 100px;
+}
+
+#cola .kola{
+    width: calc(100% / 3 - 50px);
+    height: 400px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+    border-radius: 40px;
+    padding: 10px;
+    transition: all 0.3 ease;
+    box-shadow: 0px 0px 5px gray;
+
+}
+
+#cola .kola:hover {
+    background-color: red;
+    color: white;
+    box-shadow: 0px 0px 5px gray;
+}
+
+#cola .kola .image img{
+    width: 100px;
+    height: 230px;
+    object-fit: contain;
+}
+
+#cola .kola .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+}
+
+#cola .kola .text .price{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    gap: 10px;
+}
+
+#cola .kola .text .footer{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#cola .kola .text .footer button{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    border: none;
+}
+
+
+
+#cola .fanta{
+    width: calc(100% / 3 - 50px);
+    height: 400px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+    border-radius: 40px;
+    padding: 10px;
+    transition: all 0.3 ease;
+    box-shadow: 0px 0px 5px gray;
+}
+
+#cola .fanta:hover {
+    background-color: orange;
+    color: white;
+    box-shadow: 0px 0px 5px gray;
+}
+
+#cola .fanta .rasm img{
+    width: 100px;
+    height: 250px;
+    object-fit: contain;
+}
+
+#cola .fanta .tekst{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+}
+
+#cola .fanta .tekst .narhi{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    gap: 10px;
+}
+
+#cola .fanta .tekst .soni{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#cola .fanta .tekst .soni button{
+    padding: 10px 20px;
+    background-color: orange;
+    border-radius: 20px;
+    font-size: 20px;
+    border: none;
+}
+
+
+
+#cola .sprite{
+    width: calc(100% / 3 - 50px);
+    height: 400px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+    border-radius: 40px;
+    padding: 10px;
+    transition: all 0.3 ease;
+    box-shadow: 0px 0px 5px gray;
+}
+
+#cola .sprite:hover {
+    background-color: green;
+    color: white;
+    box-shadow: 0px 0px 5px gray;
+}
+
+#cola .sprite .foto img{
+    width: 100px;
+    height: 250px;
+    object-fit: contain;
+}
+
+#cola .sprite .tex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+}
+
+#cola .sprite .tex .sena{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    gap: 10px;
+}
+
+#cola .sprite .tex .skolko{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#cola .sprite .tex .skolko button{
+    padding: 10px 20px;
+    background-color: green;
+    border-radius: 20px;
+    font-size: 20px;
+    border: none;
+}

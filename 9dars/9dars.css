@@ -1,0 +1,317 @@
+.navbar {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 100px;
+}
+
+
+
+.navbar h1 {
+    display: flex;
+    color: var(--primary, #2947A9);
+    font-family: Work Sans;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.navbar .bir ul {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 50px;
+    list-style: none;
+    color: var(--neutral-900, #14171F);
+    font-family: Work Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+
+}
+
+button {
+    color: var(--secondary, #F9995D);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+* {
+    padding: 0;
+}
+
+.two {
+    background-image: url(ab.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 500px;
+}
+
+.two h1 {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#three {
+    text-align: center;
+    font-size: 30px;
+}
+
+#three h1 {
+    font-size: 50px;
+}
+
+#three .cards {
+    display: flex;
+    gap: 20px;
+    padding: 20px 150px;
+}
+
+#three .cards .one,
+.three {
+    border: 1px solid rgb(13, 12, 12);
+    padding: 20px;
+    width: calc(100% / 3);
+}
+
+#three .cards h2 {
+    font-size: 22px;
+}
+
+#three .cards p {
+    font-size: 15px;
+}
+
+#bir {
+    display: flex;
+    flex-direction: column;
+    border-radius: 2px;
+    box-shadow: 0px 8px 8px -4px rgba(17, 24, 39, 0.04), 0px 20px 24px -4px rgba(17, 24, 39, 0.10);
+    height: 100%;
+    padding: 50px 40px;
+    position: relative;
+    flex-shrink: 0;
+}
+
+#bir img {
+    width: 900px;
+    height: 600px;
+}
+
+
+#bir .ikki {
+    top: 120px;
+    position: absolute;
+    right: 400px;
+    background: var(--Primary, #2947A9);
+}
+
+
+#ikki {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    padding: 20px 150px;
+}
+
+#ikki h1 {
+    font-size: 50px;
+}
+
+#ikki .home {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+#ikki .home div {
+    border: 1px solid rgb(11, 11, 11);
+    padding: 20px;
+    width: calc(100% / 3 - 80px);
+    color: #2947A9;
+}
+
+#ikki .home h2 {
+    font-size: 22px;
+}
+
+#ikki .home p {
+    font-size: 15px;
+}
+
+#ikki .home .div2 {
+    background-color: #2947A9;
+    color: white;
+}
+
+
+#Get {
+    background-image: url(k.png);
+    height: 100%;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Get .giv h1 {
+    font-size: 40px;
+    color: white;
+}
+
+#Get .giv p {
+    color: white;
+}
+
+#Get button {
+    font-size: 18px;
+}
+
+
+
+#whar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+
+}
+
+#whar {
+    color: #2947A9;
+    font-size: 20px;
+    
+}
+
+#whar .war {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    color: white;
+}
+
+#whar .war div {
+    background-color: #2947A9;
+}
+
+#whar .car {
+    grid-column: span 2 / span 2;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#whar .car .cards button {
+    font-size: 18px;
+    background-color: black;
+    color: white;
+}
+
+#whar .car .cards {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+#whar .car .cards button {
+    border: none;
+    width: 200px;
+}
+
+#whar .cas img {
+    background-color: white;
+}
+
+
+#not .note h1 {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+#not .note p {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+#not form {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+
+#not form textarea {
+    grid-column: span 2 / span 2;
+    height: 135px;
+}
+
+#not p {
+    grid-column: span 2 / span 2;
+}
+
+#not button {
+    background-color: #2947A9;
+    color: white;
+    font-size: 35px;
+    justify-content: center;
+}
+
+#go{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px;
+}
+
+#go .gov .gol {
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#go .gol span{
+    color: #2947A9;
+}
+
+.get {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+.get .git form{
+    display: flex;
+    width: 100%;
+    height: 40px;
+}
+
+.get .git h2{
+    color: #2947A9;
+
+}
+
+
+#teg .tew {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #2947A9;
+    color: white;
+    padding: 10px 10px;
+}
+

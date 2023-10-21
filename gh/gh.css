@@ -1,0 +1,36 @@
+#lester{
+    display: flex;
+    background-color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.one div{
+    display: flex;
+    background-color:black ;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.two div{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.two div ul{
+    background-color: black;
+    display: flex;
+    gap: 25px;
+    font-size: 32px;   
+    
+}
+.two div ul li{
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    display: flex;
+   background-position: center;
+}

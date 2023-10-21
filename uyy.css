@@ -1,0 +1,49 @@
+*{
+    background-color: rgb(25, 83, 95);
+}
+
+#ziro{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+#ziro h1{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#ziro .one{
+    display: flex;
+    font-size: 30px;
+    gap: 20px;
+    left: 50%;
+}
+
+
+
+#go .two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#go .two h2{
+    font-size: 70px;
+    color: white;
+}
+
+#go .two p{
+    color: white;
+    font-size: 20px;
+}
+
+#go .two button{
+    background-color: gold;
+    color: white;
+    font-size: 40px;
+    border: 20px;
+}

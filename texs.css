@@ -1,0 +1,27 @@
+#lester {
+    display: flex;
+    justify-content: space-between;
+    /*center flex-end flex-start space-around space-evenly*/
+}
+
+#lester div {
+    width: 300px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#lester .one {
+    background-image: url('rasm linki');
+}
+
+#lester .two {
+    background-image: url('rasm linki');
+}
+
+#lester .three {
+    background-image: url('rasm linki');
+}

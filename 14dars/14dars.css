@@ -1,0 +1,59 @@
+* {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.conterner {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+    background: aqua;
+    gap: 10px;
+}
+
+.conterner>div {
+    width: 300px;
+    height: 300px;
+    background: blue;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    border-top: 20px;
+    margin: 0px;
+
+}
+
+.conterner>div>img {
+    border-radius: 20px;
+}
+
+.conterner>div>p {
+    font-size: 20px;
+    color: white;
+}
+
+.conterner>div>button {
+    background-color: aqua;
+    color: black;
+    border: aqua;
+    border-radius: 30px;
+    width: 80px;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 900px) {
+
+    .conterner {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .conterner {
+        flex-wrap: wrap;
+        height: 180vh;
+    }
+}

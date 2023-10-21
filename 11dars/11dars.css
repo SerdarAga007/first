@@ -1,0 +1,38 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation-name: misol;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+    position: absolute;
+}
+
+@keyframes misol {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+
+    25%{
+       left: 1200px;
+       top: 0px; 
+    }
+
+    50% {
+        left: 1200px;
+        top: 650px;
+    }
+
+    75%{
+        left:0px;
+        top: 650px;
+    }
+
+    100% {
+        top: 0px;
+        bottom: 0px;
+    }
+}

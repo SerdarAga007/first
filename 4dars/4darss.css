@@ -1,0 +1,42 @@
+section {
+    background-image: url('./rasm.JPG');
+    height: calc(100vh-100px);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 50px;
+    padding: 50px;
+
+}
+
+section h1{
+    font-size: 70px;
+    color: white;
+}
+.one{
+    display: flex;
+    justify-content: space-between;
+}
+.one div{
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    text-align: center;
+}
+.one div i{
+    font-size: 50px;
+}
+.one div h2{
+    font-size: 25px;
+}
+.one div p{
+    font-size: 16px;
+}
